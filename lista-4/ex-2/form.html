@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="form.php" method="get">
+        <div>
+            <label for="texto">Caixa de texto de uma linha</label>
+            <input type="text" name="texto" id="texto">
+        </div>
+        <div>
+            <label for="bio">Caixa de texto de rolagem</label>
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="chbx" id="chbx" value="true">
+            <label for="chbx">Check Box</label>
+        </div>
+        <div>
+            <input type="radio" name="rad" id="rad" value="true">
+            <label for="rad">Botao de opcao</label>
+        </div>
+        <div>
+            <select name="sel" id="sel">
+                <option value="opt1">Opt 1</option>
+                <option value="opt2">Opt 2</option>
+                <option value="opt3">Opt 3</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
